@@ -7,25 +7,44 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-repeat: no-repeat;
+            background-repeat: repeat;
             background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;*/
+            /*
+            Short hand - background
+            color > image > position > repeat > {size} > attachment
+            */
+            background: black url(imagens/wallpaper002.jpg) no-repeat center center fixed;
             background-size: cover;
         }
         main {
             background-color: white;
-            width: 450px;
-            border: 2px solid darkblue;
-            border-radius: 10px;
+            max-width: 400px;
+            border: 2px solid black;
+            border-radius: 5px;
+            box-shadow: 2px 3px 2px black;
             padding: 30px;
             margin: auto;
+        }
+        h1 {
+            background-image: linear-gradient(to right, lightblue, lightgray, transparent );
+        }
+        p {
+            text-align: justify;
+            
         }
     </style>
 </head>
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum magni amet corrupti aliquam consectetur necessitatibus, voluptatum voluptates, quam omnis nulla veritatis. Totam, eos blanditiis ut quis adipisci neque amet dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis impedit aut nisi? Reiciendis deserunt quasi velit animi, vel voluptas repellat quod sed quibusdam iusto inventore temporibus exercitationem enim nihil tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, veritatis eos repellendus necessitatibus, sunt mollitia a expedita et labore distinctio quas blanditiis culpa! Molestiae, laboriosam dolor ipsam ut eum a?  </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum magni amet corrupti aliquam consectetur necessitatibus, voluptatum voluptates, quam omnis nulla veritatis. Totam, eos blanditiis ut quis adipisci neque amet dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis impedit aut nisi? Reiciendis deserunt quasi velit animi, vel voluptas repellat quod sed quibusdam iusto inventore temporibus exercitationem enim nihil tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, veritatis eos repellendus necessitatibus, sunt mollitia a expedita et labore distinctio quas blanditiis culpa! Molestiae, laboriosam dolor ipsam ut eum a?  </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum magni amet corrupti aliquam consectetur necessitatibus, voluptatum voluptates, quam omnis nulla veritatis. Totam, eos blanditiis ut quis adipisci neque amet dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis impedit aut nisi? Reiciendis deserunt quasi velit animi, vel voluptas repellat quod sed quibusdam iusto inventore temporibus exercitationem enim nihil tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, veritatis eos repellendus necessitatibus, sunt mollitia a expedita et labore distinctio quas blanditiis culpa! Molestiae, laboriosam dolor ipsam ut eum a?  </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum magni amet corrupti aliquam consectetur necessitatibus, voluptatum voluptates, quam omnis nulla veritatis. Totam, eos blanditiis ut quis adipisci neque amet dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis impedit aut nisi? Reiciendis deserunt quasi velit animi, vel voluptas repellat quod sed quibusdam iusto inventore temporibus exercitationem enim nihil tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, veritatis eos repellendus necessitatibus, sunt mollitia a expedita et labore distinctio quas blanditiis culpa! Molestiae, laboriosam dolor ipsam ut eum a?  </p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum magni amet corrupti aliquam consectetur necessitatibus, voluptatum voluptates, quam omnis nulla veritatis. Totam, eos blanditiis ut quis adipisci neque amet dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis impedit aut nisi? Reiciendis deserunt quasi velit animi, vel voluptas repellat quod sed quibusdam iusto inventore temporibus exercitationem enim nihil tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, veritatis eos repellendus necessitatibus, sunt mollitia a expedita et labore distinctio quas blanditiis culpa! Molestiae, laboriosam dolor ipsam ut eum a?  </p>
     </main>
 </body>
