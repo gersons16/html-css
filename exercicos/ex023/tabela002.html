@@ -11,7 +11,8 @@
 
         table {
             border-collapse: collapse;
-            width: 700px;
+            width: 500px;
+            position: relative;
         }
 
         caption {
@@ -22,13 +23,24 @@
 
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+            height: ;
+
+        }
+
         th {
             color: white;
             border: 1px solid black;
-            padding: 10px;
+            padding: 6px;
             background-color: gray;
         }
 
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
         td {
             border: 1px solid black;
             padding: 10px;
@@ -49,10 +61,12 @@
     <table>
         <caption>População das Unidades Federativas</caption>
         <thead>
-            <th>Posição</th>
-            <th>Estado</th>
-            <th>População</th>
-            <th>% da pop. total</th>
+            <tr>
+                <th scope="col">Posição</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+                <th scope="col">% da pop. total</th>
+            </tr>
 
         </thead>
         <tbody>
@@ -119,10 +133,14 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>150.996.725</strong></td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto soluta commodi ducimus molestias distinctio deleniti ipsam voluptatibus quod hic, nulla, facilis blanditiis. Eum obcaecati aliquam accusantium rerum totam itaque. Cupiditate? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem facilis at ex expedita, labore ipsum voluptatibus magni eligendi sequi iure consequuntur eaque consectetur eos repudiandae ut deserunt quisquam, cupiditate numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima perspiciatis quos ea exercitationem, aut praesentium illo excepturi sed aliquid, magni rem cum autem corrupti voluptatibus id at officia recusandae cumque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, aspernatur ab nobis tenetur dolor a dolore ad. Maiores numquam voluptate eligendi illum unde nam nobis illo delectus, eaque blanditiis provident.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto soluta commodi ducimus molestias distinctio deleniti ipsam voluptatibus quod hic, nulla, facilis blanditiis. Eum obcaecati aliquam accusantium rerum totam itaque. Cupiditate? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem facilis at ex expedita, labore ipsum voluptatibus magni eligendi sequi iure consequuntur eaque consectetur eos repudiandae ut deserunt quisquam, cupiditate numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima perspiciatis quos ea exercitationem, aut praesentium illo excepturi sed aliquid, magni rem cum autem corrupti voluptatibus id at officia recusandae cumque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, aspernatur ab nobis tenetur dolor a dolore ad. Maiores numquam voluptate eligendi illum unde nam nobis illo delectus, eaque blanditiis provident.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto soluta commodi ducimus molestias distinctio deleniti ipsam voluptatibus quod hic, nulla, facilis blanditiis. Eum obcaecati aliquam accusantium rerum totam itaque. Cupiditate? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem facilis at ex expedita, labore ipsum voluptatibus magni eligendi sequi iure consequuntur eaque consectetur eos repudiandae ut deserunt quisquam, cupiditate numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima perspiciatis quos ea exercitationem, aut praesentium illo excepturi sed aliquid, magni rem cum autem corrupti voluptatibus id at officia recusandae cumque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, aspernatur ab nobis tenetur dolor a dolore ad. Maiores numquam voluptate eligendi illum unde nam nobis illo delectus, eaque blanditiis provident.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto soluta commodi ducimus molestias distinctio deleniti ipsam voluptatibus quod hic, nulla, facilis blanditiis. Eum obcaecati aliquam accusantium rerum totam itaque. Cupiditate? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem facilis at ex expedita, labore ipsum voluptatibus magni eligendi sequi iure consequuntur eaque consectetur eos repudiandae ut deserunt quisquam, cupiditate numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima perspiciatis quos ea exercitationem, aut praesentium illo excepturi sed aliquid, magni rem cum autem corrupti voluptatibus id at officia recusandae cumque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, aspernatur ab nobis tenetur dolor a dolore ad. Maiores numquam voluptate eligendi illum unde nam nobis illo delectus, eaque blanditiis provident.</p>
 </body>
 </html>
